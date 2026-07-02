@@ -1,0 +1,22 @@
+[project]
+name = "pcb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+        "langchain",
+        "langchain-core>=0.3.78,<1.0.0",
+        "langchain-community",
+        "pdfplumber",
+        "pypdf",
+        "pymupdf",
+        "fastapi",
+        "python-dotenv",
+        "langchain-openai",
+        "openai",
+        "ragas",
+        "uvicorn",
+        "langchain-chroma",
+        "pandas",
+]

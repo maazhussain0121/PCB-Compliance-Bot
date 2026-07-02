@@ -1,0 +1,14 @@
+langchain
+langchain_core
+langchain-community
+pdfplumber
+pypdf
+pymupdf
+fastapi
+python-dotenv
+langchain-openai
+openai
+pandas
+ragas
+uvicorn
+langchain-chroma
