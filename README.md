@@ -1,10 +1,10 @@
 # PCB Compliance Bot
 
-A FastAPI-powered compliance assistant that leverages Retrieval-Augmented Generation (RAG) to answer questions about PCB standards and regulations using Azure OpenAI.
+A compliance assistant that leverages Retrieval Augmented Generation (RAG) to answer questions about PCB standards and regulations.
 
 ## Overview
 
-The PCB Compliance Bot is an intelligent system designed to provide quick and accurate answers to compliance-related questions by searching through a vector database of PCB documentation and standards. It combines:
+The PCB Compliance Chatbot is an intelligent system designed to provide quick and accurate answers to compliance related questions by searching through a vector database of PCB documentation and standards. It combines:
 
 - **Vector Database**: Chroma for efficient document retrieval
 - **LLM**: Azure OpenAI (GPT-4.1) for intelligent response generation
