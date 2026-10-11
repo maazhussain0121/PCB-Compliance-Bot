@@ -20,22 +20,6 @@ The PCB Compliance Chatbot is an intelligent system designed to provide quick an
 - ⚡ **Fast API**: RESTful API for easy integration
 - 💾 **Persistent Vector DB**: Chroma vector store for efficient retrieval
 
-## Project Structure
-
-```
-pcb/
-├── app.py                 # FastAPI application setup
-├── main.py               # Core RAG logic and vector DB management
-├── model.py              # Pydantic models for requests
-├── router/
-│   └── response.py       # API endpoints
-├── dataset/              # PCB compliance documents (PDFs)
-├── chroma_db/            # Vector database storage
-├── pyproject.toml        # Project metadata and dependencies
-├── requirements.txt      # Python dependencies
-└── README.md            # This file
-```
-
 ## Prerequisites
 
 - Python >= 3.13
@@ -71,16 +55,6 @@ The system evaluates responses using:
 - **AnswerRelevancy**: Measures how relevant the answer is to the question
 - **Faithfulness**: Measures if the answer is grounded in the retrieved context
 
-
-## Future Enhancements
-
-- [ ] Support for multiple document types (HTML, DOCX)
-- [ ] Web interface for easy querying
-- [ ] Document upload functionality
-- [ ] Answer caching and analytics
-- [ ] Multi-language support
-- [ ] Custom fine-tuning for PCB-specific terminology
-
 ## Support
 
-For issues or questions, please contact [your contact information].
+For issues or questions, please contact maazhussain0121@gmail.com.
